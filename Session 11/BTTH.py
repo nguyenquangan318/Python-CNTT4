@@ -36,7 +36,7 @@ Lựa chọn của bạn: ''')
                 print(f'{i+1}. Mã SP: {product['product_id']} | Tên: {product['product_name']} | Giá: {product['price']} | Số lượng: {product['quantity']}')
         case '2':
             # Nhập và validate mã sản phẩm
-            id_input = input('nhập mã sản phẩm: ').
+            id_input = input('nhập mã sản phẩm: ')
             name_input = input('nhập tên sản phẩm: ')
             price_input = input('nhập giá sản phẩm: ')
             quantity_input = input('nhập số lượng sản phẩm: ')
